@@ -3,7 +3,7 @@ const unirest = require("unirest");
 const req = unirest("POST", "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send");
 req.headers({
 	"x-rapidapi-host": "rapidprod-sendgrid-v1.p.rapidapi.com",
-	"x-rapidapi-key": "rapidapikeyhere",
+	"x-rapidapi-key": "rapidapikeyhere", // replace with your rapid api key 
 	"content-type": "application/json",
 	"accept": "application/json"
 });
