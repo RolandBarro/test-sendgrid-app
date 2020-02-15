@@ -3,7 +3,7 @@ const unirest = require("unirest");
 const req = unirest("POST", "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send");
 req.headers({
 	"x-rapidapi-host": "rapidprod-sendgrid-v1.p.rapidapi.com",
-	"x-rapidapi-key": "075ce94760mshcf1baf6d78937d0p114ac4jsn83486f75f98e",
+	"x-rapidapi-key": "rapidapikeyhere",
 	"content-type": "application/json",
 	"accept": "application/json"
 });
