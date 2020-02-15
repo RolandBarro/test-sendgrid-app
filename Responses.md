@@ -17,6 +17,46 @@ To use SendGrid over RapidAPI go over these simple steps
 $ npm install -s unirest
 ```
 
-Assuming you have checked out the sample implementation above, please follow installation guide from it's README.md
+Assuming you have checked out the sample implementation above, please follow installation guide from it's [README.md](https://github.com/RolandBarro/test-sendgrid-app).
+
+After successfully installed and run the app from your local machine, you are now ready to implement other endpoints Sendgrid offered thru RapidAPI.
+
+---
+
+> `MAIL`
+>
+> *This endpoint allows you to send email over SendGrid’s v3 Web API,*
+
+- **Name:** `Send`
+- **Method:** `POST`
+- **Sample Payload:**
+```
+{
+	"personalizations": [
+		{
+			"to": [
+				{
+					"email": "john@example.com"
+				}
+			],
+			"subject": "Hello, World!"
+		}
+	],
+	"from": {
+		"email": "from_address@example.com"
+	},
+	"content": [
+		{
+			"type": "text/plain",
+			"value": "Hello, World!"
+		}
+	]
+}
+```
+...
+
+
+
+
 
 

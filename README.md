@@ -3,10 +3,10 @@
 ## (Sample Implementation) 
 
 **To Use:**
- - checkout from this repository or download the zip file.
+ - checkout from this [repository](git@github.com:RolandBarro/test-sendgrid-app.git) or download the [zip file](https://github.com/RolandBarro/test-sendgrid-app/archive/master.zip).
  - on the folder where you have checked out or extracted the app, run the following command on CLI
 
- *Assuming you have installed NODEJS*
+ *Assuming you have installed NodeJS*
  ```
  $ npm install
  ```
